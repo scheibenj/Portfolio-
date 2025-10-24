@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="custom_style.css">
+  <title>Benjamin Oberauer</title>
+</head>
+<body>
+
+<!--Header-->  
+
+  <header>
+    <div class="container my-3">
+      <h1 class="display-1 mb-4">Benjamin Oberauer</h1>
+        <p class="lead">Audio Engineering | Web-Development | Full-Time Nerd</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link" href="#aboutMe">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#career">Career</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--Text + IMG-->
+
+  <div class="container mt-2">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="Benjamin_klein.jpg" class="img-fluid rounded-circle" alt="Bild von Benjamin">
+    </div>
+
+  <!--Welcome Section-->
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title mb-4" id="aboutMe">Welcome</h2>
+        <p class="card-text">Approaching things with structure, creativity, and ambition is what drives me. Whether working in a team or in direct communication, I believe good communication is the key. After more than 14 years of professional experience, I am now fully committed to starting my journey as a Web Developer and look forward to applying my expertise while continuously learning new skills.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Content-->
+
+  <main>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <h3 class="mb-3" id="career">Work XP</h3>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="display-4 mb-3">OBI</h4>
+                <div><strong>2011 - Current</strong></div>
+                Over 14 years Experience of: Communication with Customers and suppliers, stockpiling and contact person for digital processes
+  
+    <ul class="list-group list-group-flush mt-3">
+      <li class="list-group-item">Apprentice</li>
+      <li class="list-group-item">Sale Specialist</li>
+      <li class="list-group-item">Administration</li>
+      <li class="list-group-item">Disposition</li>
+    </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="display-4 mb-3">Samariterbund</h4>
+              <div><strong>2016 - 2018</strong></div>
+              Civilian service followed by one year of full-time employment, primarily responsible for patient and disabled transport, as well as assisting with medical support services.
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="col mt-3">
+  <h3 class="mb-3">Skills</h3>
+    <div class="card">
+      <div class="card-body">
+        <h4>Audio Engineering</h4>
+          <div><strong>2021 - 2024</strong></div>
+          As a musician, I took the next step by completing a course in Audio Mixing and Mastering at Hofa College in Germany.
+
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Mixing and Mastering</li>
+    <li class="list-group-item">Production</li>
+    <li class="list-group-item">Projects: 
+      <a href="https://open.spotify.com/intl-de/artist/1m0yjEuQZ0kexOY9j4CnAR?si=BqDNbXbJSHyDMcok-2ggnQ">Spotify</a> | <a href="https://www.youtube.com/@Benj__">Youtube</a>
+    </li>
+  </ul>
+    <h4>Web-Development</h4>
+      <div><strong>2024 - 2025</strong></div>
+        Currently I'm learning Web-Development and have successfully completed the Full-Stack Web Development course including the final exam at WIFI Linz, Upper Austria.
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">HTML5</li>
+          <li class="list-group-item">CSS3</li>
+          <li class="list-group-item">Bootstrap</li>
+          <li class="list-group-item">JS</li>
+          <li class="list-group-item">PHP</li>
+          <li class="list-group-item">MySQL</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </main>
+
+  <!--Contact Form-->
+
+  <footer id="contact">
+    <div class="container mb-5 mt-3">
+      <div class="card">
+        <div class="card-body">
+          <h5>Contact Me</h5>
+            <form method="post" action="sendmail.php">
+              <div class="mb-3">
+                <label class="form-label" for="fname">First Name</label>
+                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name...">
+              </div>    
+                <div class="mb-3">
+                  <label class="form-label" for="msg">Your Message</label>
+                    <textarea class="form-control" id="msg" name="msg" placeholder="Your Message..."></textarea>
+                </div>
+                  <input class="btn btn-primary" type="submit" name="send" value="Send Message">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+  <div class="card-body">
+    <figure>
+      <cite title="Source Title">&copy Benjamin Oberauer</cite>
+    </figure>
+  </div>
+</div>
+  </footer>
+    <button onclick="topFunction()" id="scrollTopBtn" class="btn btn-primary">Back To Top</button>
+</body>
+</html>
