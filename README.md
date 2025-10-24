@@ -15,11 +15,6 @@ Hier präsentiere ich meine bisherigen Projekte, meine berufliche Laufbahn und m
 
 ---
 
-## 🌐 Live Demo
-
-➡️ [Portfolio online ansehen](https://benjaminoberauer.at) *(oder GitHub Pages Link, falls du das dort hostest)*
-
----
 
 ## 🧠 Features
 
@@ -35,13 +30,6 @@ Hier präsentiere ich meine bisherigen Projekte, meine berufliche Laufbahn und m
 
 - 🎵 **Audio Engineering Projekte** – Mixing & Mastering
 - 📦 **Weitere Projekte folgen...**
-
----
-
-## 📬 Kontakt
-
-📧 office@benjamin-oberauer.at  
-🌍 [www.benjamin-oberauer.at](https://benjamin-oberauer.at)
 
 ---
 
